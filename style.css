@@ -92,6 +92,11 @@ button{
     color: var(--primary-light);
     font-weight: 700;
     font-size: 14px;
+    transition: all 0.5s;
+
+}
+.select-plan a:hover{
+    color: var(--desaturated-blue);
 }
 .btn-payment{
     background-color: var(--primary-light);
@@ -104,6 +109,11 @@ button{
     letter-spacing: 0.6px;
     cursor: pointer;
     box-shadow: 0px 16px 16px rgb(209, 209, 209);
+    transition: all 0.5s;
+}
+.btn-payment:hover{
+    background-color: var(--desaturated-blue);
+
 }
 .btn-cancel{
     margin-top: 10px;
@@ -112,8 +122,12 @@ button{
     font-size: 14px;
     font-weight: 700;
     background-color: transparent;
-}
+    transition: all 0.5s;
 
+}
+.btn-cancel:hover{
+    color: var(--dark-blue);
+}
 @media only screen and (min-width: 768px){
     body{
         background: url("./images/pattern-background-desktop.svg");
